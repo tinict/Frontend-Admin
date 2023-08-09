@@ -1,0 +1,330 @@
+.content {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #130467;
+}
+
+.content--colRight {
+    width: 200px;
+}
+
+.content--colLeft {
+    width: calc(100% - 200px);
+    background-color: #fff;
+    padding: 0 16px 16px 16px;
+    overflow-y: scroll;
+}
+.content--title {
+    font-size: 18px;
+    color: #130467;
+}
+
+.content--header {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content--iconHeader {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.form--header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #cedff2;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.header--right {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form--header .title {
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #cedff2;
+    color: #130467;
+    border-radius: 5px;
+}
+
+.form__Info {
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #8f8f8f;
+    padding-left: 10px;
+    outline: 0;
+    width: 190px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container--input {
+    margin: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Description {
+    margin-top: 12px;
+    width: 392px;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid #8f8f8f;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.form__ChooseFile {
+    padding: 10px;
+    width: 450px;
+    height: 180px;
+    margin: 12px 12px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label_Choose {
+    color: #130467;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+/* table */
+.table-container {
+	width: 100%;
+	overflow-x: scroll;
+	padding: 10px 0;
+}
+
+table { 
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) { 
+	background: #eee; 
+}
+
+th {
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+}
+
+td, th { 
+	padding: 8px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 12px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.groupButton {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnProduct {
+    height: 30px;
+    padding: 8px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #b8c4f7;
+    border: 0;
+    margin-right: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btnProduct--icon {
+    font-size: 20px;
+}
+
+.newProduct {
+    margin-top: 10px;
+}
+
+.item--input {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0;
+}
+
+.newProduct__left {
+    width: 50%;
+}
+
+.newProduct__right {
+    width: 50%;
+}
+
+.newProduct__titleProduct,
+.newProduct__nameProduct,
+.newProduct__TypeProduct,
+.newProduct__Category{
+    width: 80%;
+}
+
+.newProduct__titleProduct input,
+.newProduct__nameProduct input,
+.newProduct__TypeProduct input,
+.newProduct__Category input {
+    width: 100%;
+}
+
+.rown-2, 
+.rown-3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%
+}
+
+.row-with-3 input {
+    width: 120px;
+}
+
+.row-with-2 input {
+    width: 185px;
+}
+
+.image--container {
+    height: 125px;
+    display: flex;
+}
+
+.image--container .image-item {
+    margin-right: 8px;
+}
+
+.grbtn--image {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grbtn--image button {
+    border: 0;
+    font-size: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.pagination__style {
+    font-size: 20px;
+    color: #8f8f8f;
+    outline: 0;
+}
+
+.pagination__page {
+    height: 20px;
+    width: 24px;
+    padding: 0 2px;
+    font-size: 14px;
+    border: 1px solid #828080;
+    outline: 0;
+    margin: 0 5px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.numPage {
+    margin: 0 5px;
+}
+
+.filter__page {
+    height: 20px !important;
+    width: 40px !important;
+}
+
+.btnFilter {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    margin-right: 12px;
+}
+
+.grouptblBTN {
+    display: flex;
+}
+
+.grouptblBTN--icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.grouptblBTN--icon  .icon {
+    font-size: 18px;
+}
+
+.sub--header {
+    display: flex;
+    margin: 8px 0;
+    justify-content: end;
+}

@@ -1,0 +1,26 @@
+.order--search {
+    margin-top: 10px;
+    display: flex;
+    height: 30px;
+    width: 250px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.order--search .icon__search {
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.order--search input {  
+    height: 25px;
+    border-radius: 5px;
+    border-radius: 1px solid #ccc;
+    padding: 0 8px;
+}
+
+.sub--header {
+    display: flex;
+    margin: 8px 0;
+}
